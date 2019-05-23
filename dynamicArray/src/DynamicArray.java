@@ -142,4 +142,10 @@ public class DynamicArray {
         items = Arrays.copyOf(items, newCapacity);
         capacity = newCapacity;
     }
+
+    void display() {
+        for (int i = 0; i < size; i++) {
+            System.out.println(items[i] + " ");
+        }
+    }
 }
